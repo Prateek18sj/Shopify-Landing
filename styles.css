@@ -1,0 +1,235 @@
+body{
+  background-image: url("Background-Image/download.png");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 54% 0;
+}
+
+.mainlogo{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  /* padding-top: 8px; */
+  padding-right: 10px;
+  margin-top: -8px;
+}
+
+.heading{
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size:57px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 75px;
+}
+
+.smallheading{
+  color: white;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  line-height: 7px;
+  font-weight: lighter;
+  letter-spacing: -0.5px;
+  margin: -7px auto;
+}
+
+.email{
+  /* To increase the width of the box */
+  width: 20%;
+
+  height: 18px;
+  padding: 1rem;
+  min-width: 250px;
+
+  /* To shift the position of the box from corner to center without affecting the margin. */
+  position: relative;
+  /* left: 500px;
+  right: 2%; */
+  top: 50px;
+
+  /* for making curvy borders */
+  border: 2px solid white;
+  border-radius: 7px;
+
+  font-size: 20px;
+}
+
+.email:focus{
+  /* To remove black line coming in the background of the box while clicking on it. */
+    outline: none;
+}
+
+::placeholder{
+  font-size: 16px;
+  padding-top: 1.5rem;
+  font-weight: 100;
+}
+
+.button{
+  background-color: rgba(21,21,21,0.907);;
+  position: relative;
+  top: 48px;
+
+  height: 53px;
+  width: 11rem;
+
+  font-size: 15px;
+  color: white;
+
+  border: 2px solid black;
+  border-radius: 7px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.button:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+h5{
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  font-weight: lighter;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.bagwali{
+margin-left: 24%;
+margin-top: 1%;
+}
+
+.input{
+  text-align: center;
+}
+
+.image{
+  width: 42px;
+}
+
+.all-block{
+  padding-top: 96px;
+  padding-bottom: 96px;
+  margin-left: 180px;
+}
+
+.first-block{
+  width: 275px;
+  display: inline-block;
+  margin-left: 110px;
+}
+
+.second-block{
+  width: 265px;
+  display: inline-block;
+  position: relative;
+  bottom: 3px;
+  left: 46px;
+}
+.third-block {
+  width: 265px;
+  display: inline-block;
+  position: relative;
+  bottom: 48px;
+  left: 85px;
+}
+
+.para-heading{
+  font-weight: 550;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.para-content{
+  width: 275px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: grey;
+  letter-spacing: 0.75px;
+  line-height: 20px;
+}
+
+.hr{
+  width: 62%;
+  border-top: 1px solid #d2d5d9;
+  margin-top: 45px;
+  margin-bottom:  45px;
+}
+
+.picturefooter{
+  margin-left: 32px;
+  position: relative;
+  left: 265px;
+}
+
+.fotterpara{
+  font-size: 24px;
+  font-family: sans-serif;
+  text-align: center;
+  width: 44%;
+  position: relative;
+  left: 400px;
+  padding-top: 40px;
+  font-weight: 200;
+  letter-spacing: .5px;
+  line-height: 26px;
+  color: #6b6a69;
+}
+
+.fotterauthor{
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footerbutton{
+  position: relative;
+  left: 660px;
+  top: 32px;
+  background-color:#075414;
+  height: 53px;
+  width: 11rem;
+
+  font-size: 15px;
+  color: white;
+
+  border: 2px solid black;
+  border-radius: 7px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.footerbutton:hover{
+  cursor: pointer;
+  background-color: black;
+  box-shadow: 50px 50px 50px 50px #282928 inset;
+}
+
+.footer1{
+  display: inline-block;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.footer2{
+  display: inline-block;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+footer{
+  text-align: right;
+
+}
